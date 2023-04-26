@@ -13,7 +13,6 @@ redhat
 redhat
 EOF
 
-groupadd TrainingGroup
 usermod -a -G TrainingGroup user1
 
 useradd user2
@@ -29,7 +28,6 @@ redhat
 redhat
 EOF
 
-groupadd admin
 usermod -a -G admin user2
 usermod -a -G admin user3
 
