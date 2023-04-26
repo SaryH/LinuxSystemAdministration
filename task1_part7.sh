@@ -9,4 +9,11 @@
 
 sudo yum install tmux -y
 sudo yum install httpd -y
-sudo yum install mysql -y
+sudo yum install mysql-server
+
+sudo systemctl start httpd
+sudo systemctl enable httpd
+sudo systemctl start mysqld
+sudo systemctl enable mysqld
+
+
