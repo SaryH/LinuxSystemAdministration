@@ -43,6 +43,20 @@ wget https://repo.zabbix.com/zabbix/4.4/rhel/7/x86_64/zabbix-sender-4.4.9-1.el7.
 wget https://repo.zabbix.com/zabbix/4.4/rhel/7/x86_64/zabbix-server-pgsql-4.4.9-1.el7.x86_64.rpm
 wget https://repo.zabbix.com/zabbix/4.4/rhel/7/x86_64/zabbix-web-mysql-4.4.9-1.el7.noarch.rpm
 wget https://repo.zabbix.com/zabbix/4.4/rhel/7/x86_64/zabbix-web-pgsql-4.4.9-1.el7.noarch.rpm
+
+#mariaDB:
+wget https://mirror.yer.az/mariadb/yum/10.10/centos/7/x86_64/rpms/MariaDB-client-10.10.3-1.el7.centos.x86_64.rpm
+wget https://mirror.yer.az/mariadb/yum/10.10/centos/7/x86_64/rpms/MariaDB-client-debuginfo-10.10.3-1.el7.centos.x86_64.rpm
+wget https://mirror.yer.az/mariadb/yum/10.10/centos/7/x86_64/rpms/MariaDB-devel-10.10.3-1.el7.centos.x86_64.rpm
+wget https://mirror.yer.az/mariadb/yum/10.10/centos/7/x86_64/rpms/MariaDB-gssapi-server-10.10.3-1.el7.centos.x86_64.rpm
+wget https://mirror.yer.az/mariadb/yum/10.10/centos/7/x86_64/rpms/MariaDB-gssapi-server-debuginfo-10.10.3-1.el7.centos.x86_64.rpm
+wget https://mirror.yer.az/mariadb/yum/10.10/centos/7/x86_64/rpms/MariaDB-shared-10.10.3-1.el7.centos.x86_64.rpm
+wget https://mirror.yer.az/mariadb/yum/10.10/centos/7/x86_64/rpms/MariaDB-test-10.10.3-1.el7.centos.x86_64.rpm
+wget https://mirror.yer.az/mariadb/yum/10.10/centos/7/x86_64/rpms/MariaDB-common-10.10.3-1.el7.centos.x86_64.rpm
+wget https://mirror.yer.az/mariadb/yum/10.10/centos/7/x86_64/rpms/MariaDB-server-10.10.3-1.el7.centos.x86_64.rpm
+wget https://mirror.yer.az/mariadb/yum/10.10/centos/7/x86_64/rpms/MariaDB-compat-10.10.3-1.el7.centos.x86_64.rpm
+wget https://releases.galeracluster.com/galera-4/centos/7/x86_64/galera-4-26.4.14-1.el7.x86_64.rpm
+
 wget http://fping.org/dist/fping-3.10.tar.gz
 tar -xvf fping-3.10.tar.gz
 cd fping-3.10
